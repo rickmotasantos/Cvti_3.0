@@ -1,0 +1,71 @@
+@media (max-width:960px) {
+
+    header {
+        padding: 10px 15px;
+    }
+    #nave ul li a {
+        font-size: 15px;
+    }
+
+    header button{
+        padding: 15px 10px;
+        font-size: 15px;
+    }
+
+    #main {
+        flex-wrap: wrap;
+    }
+
+    #main .text-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main .text-main h1,
+    #main .text-main p {
+        text-align: center;
+    }
+
+    #centro-tec {
+        flex-wrap: wrap;
+    }
+
+    #centro-tec h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    #centro-tec .centro-tec-grid {
+        flex-wrap: wrap;
+    }
+
+    #centro-tec .centro-tec-grid-01 h2{
+        text-align: center;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+    
+    header .hamburguer {
+        display: block;
+    }
+    
+    nav {
+        display: none;
+    }
+    #nave ul {
+        position: absolute;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(248, 244, 244, 0.9);
+        border: 1px solid #000;
+        border-radius: 20px;
+        padding: 20px;
+    }
+    
+}

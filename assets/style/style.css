@@ -43,6 +43,20 @@ header {
   justify-content: space-between;
   align-items: center;
   font-family: "Nunito", sans-serif;
+  
+}
+
+header .hamburguer {
+  display: none;
+  font-size: 25px;
+}
+
+header .hamburguer a {
+  color: #101010;
+}
+
+header #nave ul{
+  transition: all 1s ease-in-out;
 }
 header #nave li {
   display: inline-block;
@@ -53,6 +67,10 @@ header #nave li a {
   color: #101010;
   font-size: 22px;
   font-weight: 700;
+}
+
+.aparecer {
+  display: block;
 }
 header button {
   padding: 15px 30px;
