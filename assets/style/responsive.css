@@ -41,16 +41,104 @@
         flex-wrap: wrap;
     }
 
-    #centro-tec .centro-tec-grid-01 h2{
+    #centro-tec .centro-tec-grid .centro-tec-child-01 {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .centro-tec-grid .centro-tec-child-01 h2{
+        text-align: center;
+        font-size: 30px;
+        max-width: 400px;
+    }
+
+    #centro-tec .centro-tec-child-02 {
+        display: flex;
+    }
+
+    #centro-tec .centro-tec-child-02 span {
+        margin: 20px 0;
+    }
+
+    #centro-tec .centro-tec-child-02 div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h1-cursos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .h1-cursos h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    #cursos .cursos-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cursos .cursos-grid img {
+        width: 300px;
+        height: 300px;
+        margin: 20px 0;
+    }
+
+    #cursos .cursos-grid-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #cursos .cursos-grid .cursos-grid-text h1 {
+        font-size: 30px;
         text-align: center;
     }
 
+    .h1-incubadora {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h1-incubadora h1 {
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #incubadora {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #incubadora .text-incubadora {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    #incubadora .text-incubadora p {
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+    }
 
 }
 
 @media (max-width: 700px) {
     
     header .hamburguer {
+        position: absolute;
+        margin-left: 200px;
         display: block;
     }
     
