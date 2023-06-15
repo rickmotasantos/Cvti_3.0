@@ -32,7 +32,7 @@
     }
 
     #centro-tec h1 {
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
         margin-bottom: 60px;
     }
@@ -124,12 +124,149 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 20px;
+        max-width: 400px;
     }
 
     #incubadora .text-incubadora p {
         padding: 20px;
         text-align: center;
+        font-size: 20px;
+    }
+
+    .h1-programas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .h1-programas h1 {
+        font-size: 40px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    #programas {
+        justify-content: center;
+    }
+
+
+    #programas .programas-grid {
+        text-align: center;
+    }
+
+    .h1-professores {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .h1-professores h1 {
         font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #professores .professores-grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    .professores-grid .img {
+        width: 250px;
+    }
+
+    .professores-grid .text-professor .foto {
+        width: 100px;
+    }
+
+    .h1-sobre {
+        display: flex;
+    }
+
+    .h1-sobre h1 {
+        font-size: 40px;
+        margin-top: -50px;
+    }
+
+    .h1-sobre img {
+        width: 100px;
+    }
+
+    #sobre {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #sobre .text-sobre {
+        text-align: center;
+    }
+
+    #sobre .img-sobre {
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .novidade h1 {
+        font-size: 50px;
+    }
+
+    .novidade-card{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .novidade-card .card-foto1 {
+        max-width: 600px;
+        padding: 10px;
+    }
+
+    .novidade-card .card-foto1 img {
+        width: 100%;
+    }
+
+    .novidade-card .grupo-foto {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        max-width: 500px;
+    }
+    
+    .novidade-card .grupo-foto .foto .card-foto2 img{
+        width: 500px;
+    }
+
+    .foto .posts .post-child p{
+        margin-right: 100px;
+        
+    }
+
+    .foto .posts .post-child h3 {
+        
+    }
+
+    .faq {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .faq .faq-img {
+        max-width: 300px;
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .faq .faq-img img {
+        width: 100%;
+    }
+
+    #copy .copy-child{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
 }
