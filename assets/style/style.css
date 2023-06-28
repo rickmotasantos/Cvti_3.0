@@ -155,7 +155,7 @@ header button {
 #centro-tec .centro-tec-grid {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
 }
 #centro-tec .centro-tec-grid .centro-tec-child-01 {
   display: grid;

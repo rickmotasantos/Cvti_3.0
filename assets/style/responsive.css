@@ -40,7 +40,10 @@
     #centro-tec .centro-tec-grid {
         flex-wrap: wrap;
     }
-
+    
+    #centro-tec .centro-tec-grid .centro-tec-child-02 div {
+      margin-left: -50px;
+    }
     #centro-tec .centro-tec-grid .centro-tec-child-01 {
         margin-bottom: 20px;
         display: flex;
@@ -220,7 +223,7 @@
     }
 
     .novidade-card .card-foto1 {
-        max-width: 600px;
+        max-width: 400px;
         padding: 10px;
     }
 
@@ -234,27 +237,47 @@
         padding: 20px;
         max-width: 500px;
     }
+
+    .novidade-card .grupo-foto .foto {
+        width: 500px;
+        margin-left: -100px;
+    }
     
     .novidade-card .grupo-foto .foto .card-foto2 img{
-        width: 500px;
+        width: 450px;
+        margin-left: 50px;
+    }
+
+    .foto .posts .post-child2 .post-btn .post-redes{
+        margin-left: -100px;
+    }
+
+    .foto .posts .post-child {
+        margin-left: 150px;
     }
 
     .foto .posts .post-child p{
         margin-right: 100px;
-        
-    }
-
-    .foto .posts .post-child h3 {
-        
     }
 
     .faq {
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
+    }
+
+    .faq .faq-child  .faq-svg{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .faq .faq-child .ul {
+        align-items: center;
     }
 
     .faq .faq-img {
-        max-width: 300px;
+        max-width: 400px;
         margin-left: 20px;
         margin-right: 0;
     }
@@ -267,6 +290,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        padding: 30px;
     }
 
 }
@@ -294,3 +318,40 @@
     }
     
 }
+
+@media (max-width: 550px) {
+
+    #main .text-main h1{
+        font-size: 30px;
+        max-width: 450px;
+    }
+
+    #main .text-main p {
+        max-width: 450px;
+    }
+
+    .h1-professores h1 {
+        padding-left: 10px;
+    }
+    
+    .novidade-card .grupo-foto .foto .card-foto2 img {
+        width: 400px;
+    }
+
+    .foto .post-child p{
+        margin-left: -100px;
+    }
+
+    .grupo-foto .post-btn {
+        margin-left: 10px;
+        padding: 0 80px;
+    }
+
+    .grupo-foto .post-child2 p {     
+        padding-left: 30px;
+    }
+
+    .foto {
+        width: 400px;
+    }
+} 
